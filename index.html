@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dentistry On Gipsy Hill | Advanced Dental Care · Open 24/7</title>
+<meta name="description" content="Advanced dental care in Gipsy Hill, London. Open 24/7 with instant AI voice booking.">
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root{--bg:#f7fafc;--ink:#0f2a3d;--muted:#5b7283;--brand:#0e8fa8;--brand-d:#0a6b7e;--card:#fff;--line:#e2ebf1}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.2}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-weight:700;font-size:1.05rem;color:var(--brand-d)}
+.nav-links{display:flex;gap:22px;font-size:.92rem;color:var(--muted)}
+.btn{display:inline-block;padding:12px 24px;border-radius:999px;font-weight:600;font-size:.95rem;border:2px solid var(--brand);background:var(--brand);color:#fff;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--brand-d);border-color:var(--brand-d)}
+.btn.ghost{background:transparent;color:var(--brand-d)}
+.btn.ghost:hover{background:var(--brand);color:#fff}
+.hero{position:relative;min-height:80vh;display:flex;align-items:center;color:#fff;background:linear-gradient(rgba(8,30,45,.55),rgba(8,30,45,.65)),url('Img/hero.jpg') center/cover no-repeat,#0f2a3d}
+.hero h1{font-size:clamp(2.2rem,6vw,4rem);margin-bottom:14px}
+.hero p{font-size:1.15rem;max-width:560px;margin-bottom:28px;opacity:.95}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero .btn.ghost{color:#fff;border-color:#fff}
+.hero .btn.ghost:hover{background:#fff;color:var(--ink)}
+section{padding:80px 0}
+.eyebrow{color:var(--brand);font-weight:700;letter-spacing:.12em;font-size:.78rem;text-transform:uppercase;margin-bottom:8px}
+.title{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:36px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(15,42,61,.08)}
+.num{font-family:'Playfair Display',Georgia,serif;font-size:1.8rem;color:var(--brand);margin-bottom:6px}
+.card h3{font-size:1.2rem;margin-bottom:6px}
+.card p{color:var(--muted);font-size:.95rem}
+.aisle{background:linear-gradient(rgba(8,30,45,.6),rgba(8,30,45,.6)),url('Img/aisle.jpg') center/cover no-repeat,#16394f;color:#fff;text-align:center}
+.aisle p{max-width:620px;margin:0 auto 26px;opacity:.95}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:12px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq p{margin-top:10px;color:var(--muted)}
+.rev-form{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin-bottom:28px}
+.rev-form input,.rev-form textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:inherit;margin-bottom:12px}
+.stars{display:flex;gap:4px;margin-bottom:12px}
+.stars button{background:none;border:none;font-size:1.8rem;color:#cbd5dc;cursor:pointer;line-height:1}
+.stars button.on{color:#f5b301}
+#reviews{display:grid;gap:14px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.rev .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
+.rev .st{color:#f5b301;letter-spacing:2px}
+.rev .by{font-weight:600}
+.rev.hidden{display:none}
+.toggle{margin-top:18px;text-align:center}
+.contact{background:#0f2a3d;color:#fff;text-align:center}
+.contact p{opacity:.9;margin-bottom:8px}
+.contact .actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:22px}
+.contact .btn.ghost{color:#fff;border-color:#fff}
+.contact .btn.ghost:hover{background:#fff;color:var(--ink)}
+footer{padding:26px 0;text-align:center;color:var(--muted);font-size:.88rem}
+@media(max-width:700px){.nav-links{display:none}section{padding:56px 0}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="brand">Dentistry On Gipsy Hill</a>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#faq">FAQ</a>
+      <a href="#reviews-section">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="tel:+15550199" class="btn">Call Now</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#7fe3f5">Open 24/7 · Gipsy Hill, London</p>
+    <h1>Advanced Dental Care,<br>Whenever You Need It</h1>
+    <p>Advanced Dental Care · Open 24/7. From routine check-ups to emergency relief, our team and AI receptionist are always here for you.</p>
+    <div class="actions">
+      <a href="tel:+15550199" class="btn">Call +15550199</a>
+      <a href="https://maps.google.com/?q=Gipsy+Hill+London" target="_blank" rel="noopener" class="btn ghost">Get Directions</a>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <p class="eyebrow">Our Services</p>
+    <h2 class="title">Complete care for every smile</h2>
+    <div class="services">
+      <div class="card"><div class="num">01</div><h3>General Consultation</h3><p>Routine check-ups, cleanings, and preventative care.</p></div>
+      <div class="card"><div class="num">02</div><h3>Cosmetic Dentistry</h3><p>Teeth whitening, veneers, and smile makeovers.</p></div>
+      <div class="card"><div class="num">03</div><h3>Orthodontics</h3><p>Braces and modern clear aligners for all ages.</p></div>
+      <div class="card"><div class="num">04</div><h3>Dental Implants</h3><p>Permanent and natural-looking tooth replacements.</p></div>
+      <div class="card"><div class="num">05</div><h3>Emergency Care</h3><p>Instant relief and immediate support for acute pain.</p></div>
+      <div class="card"><div class="num">06</div><h3>AI Booking Support</h3><p>Book or reschedule your visits instantly via voice agent.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="aisle">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#7fe3f5">Our Clinic</p>
+    <h2 class="title" style="margin-bottom:16px">A calm, modern clinical environment</h2>
+    <p>Comfortable treatment rooms, advanced technology, and a caring team, open around the clock for you and your family.</p>
+    <a href="tel:+15550199" class="btn">Book an Appointment</a>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <p class="eyebrow">FAQ</p>
+    <h2 class="title">Common questions</h2>
+    <details><summary>Are you really open 24/7?</summary><p>Yes. Our AI voice receptionist answers any time of day to book visits and handle urgent requests.</p></details>
+    <details><summary>How do I book or reschedule an appointment?</summary><p>Tap the voice assistant button on this page or call +15550199 and our AI agent will arrange it instantly.</p></details>
+    <details><summary>What should I do in a dental emergency?</summary><p>Call us straight away. We offer immediate support and relief for acute pain.</p></details>
+    <details><summary>Do you offer clear aligners and implants?</summary><p>Yes. We provide braces, modern clear aligners for all ages, and permanent dental implants.</p></details>
+    <details><summary>Where are you located?</summary><p>We are in Gipsy Hill, London. Use the Get Directions button for a map link.</p></details>
+  </div>
+</section>
+
+<section id="reviews-section" style="background:#fff">
+  <div class="wrap">
+    <p class="eyebrow">Patient Reviews</p>
+    <h2 class="title">What our patients say</h2>
+    <form class="rev-form" id="revForm">
+      <input type="text" id="rName" placeholder="Your name" maxlength="40" required>
+      <div class="stars" id="stars" aria-label="Rating">
+        <button type="button" data-v="1">★</button><button type="button" data-v="2">★</button><button type="button" data-v="3">★</button><button type="button" data-v="4">★</button><button type="button" data-v="5">★</button>
+      </div>
+      <textarea id="rText" rows="3" placeholder="Share your experience..." maxlength="300" required></textarea>
+      <button type="submit" class="btn">Submit Review</button>
+    </form>
+    <div id="reviews">
+      <div class="rev"><div class="top"><span class="by">Sarah M.</span><span class="st">★★★★★</span></div><p>Booked an urgent appointment late at night and was seen quickly. Wonderful care.</p></div>
+      <div class="rev"><div class="top"><span class="by">James T.</span><span class="st">★★★★★</span></div><p>The voice booking was effortless, and the team was friendly and professional.</p></div>
+      <div class="rev"><div class="top"><span class="by">Priya K.</span><span class="st">★★★★☆</span></div><p>Great clear aligner consultation. Everything was explained clearly.</p></div>
+      <div class="rev hidden"><div class="top"><span class="by">Daniel R.</span><span class="st">★★★★★</span></div><p>Painless implant procedure and excellent follow-up.</p></div>
+      <div class="rev hidden"><div class="top"><span class="by">Amelia W.</span><span class="st">★★★★★</span></div><p>My whitening results are fantastic. Highly recommend.</p></div>
+    </div>
+    <div class="toggle"><button class="btn ghost" id="toggleBtn" type="button">See All</button></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#7fe3f5">Contact</p>
+    <h2 class="title" style="margin-bottom:12px">Ready for your best smile?</h2>
+    <p>Gipsy Hill, London</p>
+    <p>Phone: +15550199 · Open 24/7</p>
+    <div class="actions">
+      <a href="tel:+15550199" class="btn">Call Now</a>
+      <a href="https://maps.google.com/?q=Gipsy+Hill+London" target="_blank" rel="noopener" class="btn ghost">View on Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<footer>© <span id="yr"></span> Dentistry On Gipsy Hill · Advanced Dental Care · Open 24/7</footer>
+
+<script src="lenis.min.js"></script>
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+// Smooth scrolling (Lenis)
+if(typeof Lenis!=='undefined'){
+  const lenis=new Lenis();
+  (function raf(t){lenis.raf(t);requestAnimationFrame(raf)})();
+}
+
+// Inline review system
+(function(){
+  let rating=0;
+  const stars=document.querySelectorAll('#stars button');
+  const list=document.getElementById('reviews');
+  const toggleBtn=document.getElementById('toggleBtn');
+  let expanded=false;
+  const paint=n=>stars.forEach(s=>s.classList.toggle('on',+s.dataset.v<=n));
+  stars.forEach(s=>{
+    s.addEventListener('click',()=>{rating=+s.dataset.v;paint(rating)});
+    s.addEventListener('mouseenter',()=>paint(+s.dataset.v));
+    s.addEventListener('mouseleave',()=>paint(rating));
+  });
+  const esc=t=>t.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function refresh(){
+    const items=[...list.children];
+    items.forEach((el,i)=>el.classList.toggle('hidden',!expanded&&i>=3));
+    toggleBtn.style.display=items.length>3?'inline-block':'none';
+    toggleBtn.textContent=expanded?'Show Less':'See All';
+  }
+  toggleBtn.addEventListener('click',()=>{expanded=!expanded;refresh()});
+  document.getElementById('revForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    if(!rating){alert('Please select a star rating.');return}
+    const name=esc(document.getElementById('rName').value.trim());
+    const text=esc(document.getElementById('rText').value.trim());
+    const div=document.createElement('div');
+    div.className='rev';
+    div.innerHTML='<div class="top"><span class="by">'+name+'</span><span class="st">'+'★'.repeat(rating)+'☆'.repeat(5-rating)+'</span></div><p>'+text+'</p>';
+    list.prepend(div);
+    e.target.reset();rating=0;paint(0);refresh();
+  });
+  refresh();
+})();
+
+// Vapi AI Voice Assistant widget
+var vapiInstance=null;
+const assistant="your-vapi-assistant-id-here";
+const apiKey="your-vapi-public-api-key-here";
+const buttonConfig={
+  position:"bottom-right",
+  offset:"24px",
+  width:"64px",
+  height:"64px",
+  idle:{color:"#0e8fa8",type:"pill",title:"Book with AI",subtitle:"Talk to our 24/7 receptionist"},
+  loading:{color:"#0a6b7e",type:"pill",title:"Connecting...",subtitle:"Please wait"},
+  active:{color:"#d64545",type:"pill",title:"Call in progress",subtitle:"Tap to end call"}
+};
+(function(d,t){
+  var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
+  g.defer=true;g.async=true;
+  s.parentNode.insertBefore(g,s);
+  g.onload=function(){
+    vapiInstance=window.vapiSDK.run({apiKey:apiKey,assistant:assistant,config:buttonConfig});
+  };
+})(document,"script");
+</script>
+</body>
+</html>
